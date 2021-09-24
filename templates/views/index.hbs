@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="img/weather-icon.png">  
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <h2>Use this site to get your weather update!</h2>
+
+        <form>
+            <input type="text" placeholder="Location">
+            <button>Search</button>
+        </form>
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+    </div>
+
+    {{>footer}}
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>
