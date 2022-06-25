@@ -10,8 +10,12 @@
 <body>
     <div class="main-content">
         {{>header}}
-        <img src="./img/my-img.jpg" alt="my-img" class="portrait">
-        <p>This website is built and designed by me. It uses data from darksky.net and openweathermap.org</p>
+        {{!-- <img src="./img/my-img.jpg" alt="my-img" class="portrait"> --}}
+        <ul>
+            <li><h3>This is a Web App which does the geographical coding of a given location.</h3></li>
+            <li><h3>It gets the forecast corresponding to the geographical code.</h3></li>
+            <li><h3>OpenWeatherMap API has been used for geo-coding and the Map Box API has been used for fetching the forecast information.</h3></li>
+        </ul>
     </div>
     
     {{>footer}}

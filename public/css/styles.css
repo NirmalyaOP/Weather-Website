@@ -1,21 +1,22 @@
 body {
-    color: #333333;
+    color: #de9e48;
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
-
+    background: #372c2e;
+    /* For the sticky footer */
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
-
+/* For the sticky footer */
 .main-content {
     flex-grow: 1;
 }
 
 footer {
-    color: #888888;
+    color: #ffffff;
     border-top: 1px solid #eeeeee;
     margin-top: 16px ;
     padding: 16px 0;
@@ -37,10 +38,6 @@ header a {
     text-decoration: none;
 }
 
-.portrait {
-    width: 250px;
-}
-
 input {
     border: 2px solid #cccccc;
     padding: 12px;
@@ -54,7 +51,7 @@ button {
       width: auto;
       cursor: pointer;
       border: 2px solid #888888;
-      background: #888888;
+      background: #7a4318;
       color: white;
       padding: 12px;
       font-size: larger;
